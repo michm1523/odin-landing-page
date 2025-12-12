@@ -80,9 +80,10 @@ h1 {
   flex-direction: column;
   align-items: center;
   gap: 64px;
+  margin-bottom: 64px;
 }
 
-h2 {
+.random-section h2 {
   color: #1f2937;
   font-size: 36px;
   font-weight: 900;
@@ -112,4 +113,73 @@ h2 {
   text-align: center;
   font-size: 18px;
   color: #1f2937;
+}
+
+.quote-section {
+  padding: 144px;
+  background-color: #e5e7eb;
+}
+
+.quote-box {
+  margin: 0 auto;
+  width: 800px;
+}
+
+.quote {
+  color: #1f2937;
+  font-size: 36px;
+  font-weight: 300;
+}
+
+.quote-author {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 20px;
+  color: #1f2937;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.cta-section {
+  padding: 100px 200px;
+}
+
+.cta {
+  background-color: #3882f6;
+  padding: 56px 128px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 15px;
+}
+
+.cta h2 {
+  color: #f9faf8;
+  font-size: 24px;
+}
+
+.cta p {
+  color: #e5e7eb;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.cta-signup-button {
+  border: 3px solid #f9faf8;
+  color: #f9faf8;
+  font-size: 18px;
+  padding: 12px 24px;
+  border-radius: 15px;
+}
+
+.footer {
+  padding: 32px;
+  background-color: #1f2937;
+}
+
+.footer p {
+  margin: 0 auto;
+  color: #e5e7eb;
+  font-size: 15px;
+  text-align: center;
 }
